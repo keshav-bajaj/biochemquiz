@@ -170,6 +170,7 @@ document.getElementsByClassName("submit")[1+change].onclick = function name() {
         option.innerText = options[2+change];
         document.getElementsByClassName("your opt")[1+change].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[1+change].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[2+change].classList.remove("off");
@@ -178,6 +179,7 @@ document.getElementsByClassName("submit")[1+change].onclick = function name() {
         option.innerText = options[2+change];
         document.getElementsByClassName("your opt")[1+change].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[1+change].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -195,6 +197,7 @@ document.getElementsByClassName("submit")[3].onclick = function name() {
         option.innerText = options[4];
         document.getElementsByClassName("your opt")[3].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[4].classList.remove("off");
@@ -203,6 +206,7 @@ document.getElementsByClassName("submit")[3].onclick = function name() {
         option.innerText = options[4];
         document.getElementsByClassName("your opt")[3].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -220,6 +224,7 @@ document.getElementsByClassName("submit")[3+1].onclick = function name() {
         option.innerText = options[4+1];
         document.getElementsByClassName("your opt")[3+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[4+1].classList.remove("off");
@@ -228,6 +233,7 @@ document.getElementsByClassName("submit")[3+1].onclick = function name() {
         option.innerText = options[4+1];
         document.getElementsByClassName("your opt")[3+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -245,6 +251,7 @@ document.getElementsByClassName("submit")[3+1+1].onclick = function name() {
         option.innerText = options[4+1+1];
         document.getElementsByClassName("your opt")[3+1+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[4+1+1].classList.remove("off");
@@ -253,6 +260,7 @@ document.getElementsByClassName("submit")[3+1+1].onclick = function name() {
         option.innerText = options[4+1+1];
         document.getElementsByClassName("your opt")[3+1+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -270,6 +278,7 @@ document.getElementsByClassName("submit")[3+1+1+1].onclick = function name() {
         option.innerText = options[4+1+1+1];
         document.getElementsByClassName("your opt")[3+1+1+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1+1].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[4+1+1+1].classList.remove("off");
@@ -278,6 +287,8 @@ document.getElementsByClassName("submit")[3+1+1+1].onclick = function name() {
         option.innerText = options[4+1+1+1];
         document.getElementsByClassName("your opt")[3+1+1+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1+1].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -295,6 +306,7 @@ document.getElementsByClassName("submit")[3+1+1+2].onclick = function name() {
         option.innerText = options[4+1+1+2];
         document.getElementsByClassName("your opt")[3+1+1+2].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1+2].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[4+1+1+2].classList.remove("off");
@@ -303,6 +315,7 @@ document.getElementsByClassName("submit")[3+1+1+2].onclick = function name() {
         option.innerText = options[4+1+1+2];
         document.getElementsByClassName("your opt")[3+1+1+2].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1+2].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -320,6 +333,7 @@ document.getElementsByClassName("submit")[3+1+1+3].onclick = function name() {
         option.innerText = options[4+1+1+3];
         document.getElementsByClassName("your opt")[3+1+1+3].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1+3].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[4+1+1+3].classList.remove("off");
@@ -328,6 +342,7 @@ document.getElementsByClassName("submit")[3+1+1+3].onclick = function name() {
         option.innerText = options[4+1+1+3];
         document.getElementsByClassName("your opt")[3+1+1+3].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[3+1+1+3].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -345,6 +360,7 @@ document.getElementsByClassName("submit")[9].onclick = function name() {
         option.innerText = options[10];
         document.getElementsByClassName("your opt")[9].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10].classList.remove("off");
@@ -353,6 +369,7 @@ document.getElementsByClassName("submit")[9].onclick = function name() {
         option.innerText = options[10];
         document.getElementsByClassName("your opt")[9].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -370,6 +387,7 @@ document.getElementsByClassName("submit")[9+1].onclick = function name() {
         option.innerText = options[10+1];
         document.getElementsByClassName("your opt")[9+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+1].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+1].classList.remove("off");
@@ -378,6 +396,7 @@ document.getElementsByClassName("submit")[9+1].onclick = function name() {
         option.innerText = options[10+1];
         document.getElementsByClassName("your opt")[9+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+1].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -395,6 +414,7 @@ document.getElementsByClassName("submit")[9+2].onclick = function name() {
         option.innerText = options[10+2];
         document.getElementsByClassName("your opt")[9+2].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+2].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+2].classList.remove("off");
@@ -403,6 +423,7 @@ document.getElementsByClassName("submit")[9+2].onclick = function name() {
         option.innerText = options[10+2];
         document.getElementsByClassName("your opt")[9+2].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+2].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -420,6 +441,7 @@ document.getElementsByClassName("submit")[9+3].onclick = function name() {
         option.innerText = options[10+3];
         document.getElementsByClassName("your opt")[9+3].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+3].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+3].classList.remove("off");
@@ -428,6 +450,7 @@ document.getElementsByClassName("submit")[9+3].onclick = function name() {
         option.innerText = options[10+3];
         document.getElementsByClassName("your opt")[9+3].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+3].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -445,6 +468,7 @@ document.getElementsByClassName("submit")[9+4].onclick = function name() {
         option.innerText = options[10+4];
         document.getElementsByClassName("your opt")[9+4].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+4].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+4].classList.remove("off");
@@ -453,6 +477,7 @@ document.getElementsByClassName("submit")[9+4].onclick = function name() {
         option.innerText = options[10+4];
         document.getElementsByClassName("your opt")[9+4].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+4].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -470,6 +495,7 @@ document.getElementsByClassName("submit")[9+5].onclick = function name() {
         option.innerText = options[10+5];
         document.getElementsByClassName("your opt")[9+5].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+5].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+5].classList.remove("off");
@@ -478,6 +504,7 @@ document.getElementsByClassName("submit")[9+5].onclick = function name() {
         option.innerText = options[10+5];
         document.getElementsByClassName("your opt")[9+5].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+5].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -495,6 +522,7 @@ document.getElementsByClassName("submit")[9+6].onclick = function name() {
         option.innerText = options[10+6];
         document.getElementsByClassName("your opt")[9+6].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+6].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+6].classList.remove("off");
@@ -503,6 +531,7 @@ document.getElementsByClassName("submit")[9+6].onclick = function name() {
         option.innerText = options[10+6];
         document.getElementsByClassName("your opt")[9+6].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+6].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -520,6 +549,7 @@ document.getElementsByClassName("submit")[9+7].onclick = function name() {
         option.innerText = options[10+7];
         document.getElementsByClassName("your opt")[9+7].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+7].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+7].classList.remove("off");
@@ -528,6 +558,7 @@ document.getElementsByClassName("submit")[9+7].onclick = function name() {
         option.innerText = options[10+7];
         document.getElementsByClassName("your opt")[9+7].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+7].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -545,6 +576,7 @@ document.getElementsByClassName("submit")[9+8].onclick = function name() {
         option.innerText = options[10+8];
         document.getElementsByClassName("your opt")[9+8].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+8].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+8].classList.remove("off");
@@ -553,6 +585,7 @@ document.getElementsByClassName("submit")[9+8].onclick = function name() {
         option.innerText = options[10+8];
         document.getElementsByClassName("your opt")[9+8].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+8].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -570,6 +603,7 @@ document.getElementsByClassName("submit")[9+9].onclick = function name() {
         option.innerText = options[10+9];
         document.getElementsByClassName("your opt")[9+9].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+9].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[10+9].classList.remove("off");
@@ -578,6 +612,7 @@ document.getElementsByClassName("submit")[9+9].onclick = function name() {
         option.innerText = options[10+9];
         document.getElementsByClassName("your opt")[9+9].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[9+9].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -595,6 +630,7 @@ document.getElementsByClassName("submit")[19].onclick = function name() {
         option.innerText = options[20];
         document.getElementsByClassName("your opt")[19].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[19].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[20].classList.remove("off");
@@ -603,6 +639,7 @@ document.getElementsByClassName("submit")[19].onclick = function name() {
         option.innerText = options[20];
         document.getElementsByClassName("your opt")[19].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[19].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -620,6 +657,7 @@ document.getElementsByClassName("submit")[19+1].onclick = function name() {
         option.innerText = options[20+1];
         document.getElementsByClassName("your opt")[19+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[19+1].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[20+1].classList.remove("off");
@@ -628,6 +666,7 @@ document.getElementsByClassName("submit")[19+1].onclick = function name() {
         option.innerText = options[20+1];
         document.getElementsByClassName("your opt")[19+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[19+1].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -645,6 +684,7 @@ document.getElementsByClassName("submit")[21].onclick = function name() {
         option.innerText = options[22];
         document.getElementsByClassName("your opt")[21].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[21].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[22].classList.remove("off");
@@ -653,6 +693,7 @@ document.getElementsByClassName("submit")[21].onclick = function name() {
         option.innerText = options[22];
         document.getElementsByClassName("your opt")[21].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[21].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -670,6 +711,7 @@ document.getElementsByClassName("submit")[21+1].onclick = function name() {
         option.innerText = options[22+1];
         document.getElementsByClassName("your opt")[21+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[21+1].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[22+1].classList.remove("off");
@@ -678,6 +720,7 @@ document.getElementsByClassName("submit")[21+1].onclick = function name() {
         option.innerText = options[22+1];
         document.getElementsByClassName("your opt")[21+1].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[21+1].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
@@ -695,6 +738,7 @@ document.getElementsByClassName("submit")[21+2].onclick = function name() {
         option.innerText = options[22+2];
         document.getElementsByClassName("your opt")[21+2].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[21+2].classList.add("correct");
+        document.forms["form1"]["ans"].value = "";
         return false;
     } else{
         document.getElementsByClassName("submit")[22+2].classList.remove("off");
@@ -703,6 +747,7 @@ document.getElementsByClassName("submit")[21+2].onclick = function name() {
         option.innerText = options[22+2];
         document.getElementsByClassName("your opt")[21+2].innerHTML = "Your option:\n\n" + response;
         document.getElementsByClassName("result-box")[21+2].classList.add("incorrect");
+        document.forms["form1"]["ans"].value = "";
         return false;
     }
 }
